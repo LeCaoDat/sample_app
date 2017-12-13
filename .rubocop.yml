@@ -167,8 +167,6 @@ Style/ClassAndModuleChildren:
   SupportedStyles:
     - nested
     - compact
-  Exclude:
-    - test/test_helper.rb
 
 Style/ClassCheck:
   EnforcedStyle: is_a?

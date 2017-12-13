@@ -3,5 +3,5 @@
 <p>
   <%= t(".help_content",
     help_link: link_to(t(".contact_link"), "http://www.railstutorial.org/contact"),
-    book_link: link_to(content_tag(:em, t(".tutorial_book")), "http://www.railstutorial.org/book")).html_safe%>
+    book_link: link_to(content_tag(:em, t(".tutorial_book")) << t(".book_more"), "http://www.railstutorial.org/book")).html_safe %>
 </p>
