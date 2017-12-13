@@ -33,12 +33,24 @@ en:
   hello: "Hello world"
   title: " | Ruby on Rails Tutorial Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      home_link: "Home"
+      help_link: "Help"
+      login_link: "Log in"
+      sample_app: "sample app"
+    footer:
+      about_link: "About"
+      contact_link: "Contact"
+      news_link: "News"
+      ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+      by: "Michael Hartl"
+      footer_content: "The %{rubyonrailstutorial_link} by %{by_link}"
   static_pages:
     about:
       about_title: "About"
       about_content: "The %{rubyonrailstutorial_link} is a %{book_link} and
-        %{screencast_link}
-        to teach web development with %{rubyonrails_link}
+        %{screencast_link} to teach web development with %{rubyonrails_link}.
         This is the sample application for the tutorial."
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       book: "book"
@@ -48,18 +60,26 @@ en:
     contact:
       contact_title: "Contact"
       contact_h1: "Contact"
-      contact_link: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}"
+      contact_content: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact_link}"
       contact_page: "contact page"
     help:
       help_title: "Help"
       help_h1: "Help"
       help_content: "Get help on the Ruby on Rails Tutorial at the %{help_link}.
           To get help on this sample app, see the %{book_link}"
-      tutorial_book: "Ruby on Rails Tutorial book"
+      tutorial_book: "Ruby on Rails Tutorial"
+      book_more: " book"
       contact_link: "Rails Tutorial help section"
     home:
       home_title: "Home"
-      home_h1: "Sample App"
+      home_h1: "Welcome to the Sample App"
       ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
       home_content: "This is the home page for the %{rubyonrailstutorial_link}
         sample application."
+      sign_up_now: "Sign up now!"
+      rail_logo: "Rails logo"
+  users:
+    new:
+      sign_up: "Sign up"
+      sign_up_h1: "Sign up"
+      sign_up_content: "This will be a signup page for new users."

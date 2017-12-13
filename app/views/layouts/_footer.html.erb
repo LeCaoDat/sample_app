@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t(".footer_content",
+      rubyonrailstutorial_link: link_to(t(".ruby_on_rails_tutorial"), "http://www.railstutorial.org/"),
+      by_link: link_to(t(".by"), "http://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about_link"), about_path %></li>
+      <li><%= link_to t(".contact_link"), contact_path %></li>
+      <li><%= link_to t(".news_link"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
