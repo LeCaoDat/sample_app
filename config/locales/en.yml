@@ -39,6 +39,11 @@ en:
       help_link: "Help"
       login_link: "Log in"
       sample_app: "sample app"
+      users_link: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout_link: "Log out"
     footer:
       about_link: "About"
       contact_link: "Contact"
@@ -92,3 +97,12 @@ en:
     error_messages:
       content: "The form contains "
       error: "error"
+  sessions:
+    new:
+      login_title: "Log in"
+      login_h1: "Log in"
+      button_submit: "Log in"
+      new_user: "New user? %{signup_link}"
+      signup_now: "Sign up now!"
+    create:
+      invalid_email_password: "Invalid email/password combination"
