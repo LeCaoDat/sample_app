@@ -2,3 +2,5 @@ user_models:
   max_length_name: 50
   max_length_email: 255
   min_length_password: 6
+sessions_controller:
+  remember_me: "1"
