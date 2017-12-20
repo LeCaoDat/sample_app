@@ -104,5 +104,6 @@ en:
       button_submit: "Log in"
       new_user: "New user? %{signup_link}"
       signup_now: "Sign up now!"
+      remember_me: "Remember me on this computer"
     create:
       invalid_email_password: "Invalid email/password combination"
