@@ -85,14 +85,35 @@ en:
       rail_logo: "Rails logo"
   users:
     new:
-      sign_up: "Sign up"
+      sign_up_title: "Sign up"
       sign_up_h1: "Sign up"
       confirmation: "Confirmation"
-      create_my_account: "Create my account"
+      button_submit: "Create my account"
     create:
       sign_up_success: "Welcome to the Sample App!"
     show:
       not_found_user: "Not found the User"
+    edit:
+      edit_title: "Edit user"
+      edit_h1: "Update your profile"
+      change_link: "change"
+      button_submit: "Save changes"
+      not_found_user: "Not found the User"
+      please_log_in: "Please log in."
+    update:
+      not_found_user: "Not found the User"
+      update_success: "Profile updated"
+    index:
+      users_title: "All users"
+      users_h1: "All users"
+      please_log_in: "Please log in."
+    user:
+      detele_link: "delete"
+      confirm: "You sure?"
+    destroy:
+      not_found_user: "Not found the User"
+      delete_success: "User deleted"
+      delete_failed: "User delete failed"
   shared:
     error_messages:
       content: "The form contains "
