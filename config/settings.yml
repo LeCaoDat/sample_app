@@ -4,3 +4,5 @@ user_models:
   min_length_password: 6
 sessions_controller:
   remember_me: "1"
+users_helper:
+  default_size_gravatar: 50

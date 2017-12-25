@@ -17,6 +17,9 @@ gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 gem "rubocop", "~> 0.51.0", require: false
 gem "config", "~> 1.6.1"
+gem "faker", "1.7.3"
+gem "will_paginate", "3.1.6"
+gem "bootstrap-will_paginate", "1.0.0"
 
 group :development, :test do
   gem "sqlite3", "1.3.13"
