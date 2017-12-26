@@ -127,6 +127,7 @@ en:
       new_user: "New user? %{signup_link}"
       signup_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       account_not_activated: "Account not activated. "
       check_email: "Check your email for the activation link."
@@ -135,6 +136,24 @@ en:
     edit:
       account_activated: "Account activated!"
       invalid_activation_link: "Invalid activation link"
+  password_resets:
+    new:
+      forgot_password_title: "Forgot password"
+      forgot_password_h1: "Forgot password"
+      button_submit: "Submit"
+    create:
+      send_email: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      password_reset_title: "Reset password"
+      password_reset_h1: "Reset password"
+      confirmation: "Confirmation"
+      button_submit: "Update password"
+      expired: "Password reset has expired."
+      email_not_found: "Email address not found"
+    update:
+      success: "Password has been reset."
+      cannot_empty: "can't be empty"
   user_mailer:
     account_activation:
       subject: "Account activation"
@@ -142,3 +161,11 @@ en:
       greeting: "Hi %{username},"
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate_link: "Activate"
+    password_reset:
+      subject: "Password reset"
+      user_mailer_h1: "Password reset"
+      first_content: "To reset your password click the link below:"
+      second_content: "This link will expire in two hours."
+      third_content: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      reset_password_link: "Reset password"
