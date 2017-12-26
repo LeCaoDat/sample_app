@@ -91,6 +91,7 @@ en:
       button_submit: "Create my account"
     create:
       sign_up_success: "Welcome to the Sample App!"
+      check_activate: "Please check your email to activate your account."
     show:
       not_found_user: "Not found the User"
     edit:
@@ -127,4 +128,17 @@ en:
       signup_now: "Sign up now!"
       remember_me: "Remember me on this computer"
     create:
+      account_not_activated: "Account not activated. "
+      check_email: "Check your email for the activation link."
       invalid_email_password: "Invalid email/password combination"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      user_mailer_h1: "Sample App"
+      greeting: "Hi %{username},"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate"
