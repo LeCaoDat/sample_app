@@ -83,6 +83,7 @@ en:
         sample application."
       sign_up_now: "Sign up now!"
       rail_logo: "Rails logo"
+      micropost_feed: "Micropost Feed"
   users:
     new:
       sign_up_title: "Sign up"
@@ -94,6 +95,7 @@ en:
       check_activate: "Please check your email to activate your account."
     show:
       not_found_user: "Not found the User"
+      total_micropost: "Microposts (%{count})"
     edit:
       edit_title: "Edit user"
       edit_h1: "Update your profile"
@@ -119,6 +121,13 @@ en:
     error_messages:
       content: "The form contains "
       error: "error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      placeholder_content: "Compose new micropost..."
+      button_submit: "Post"
+      image_oversize: "should be less than 5MB"
   sessions:
     new:
       login_title: "Log in"
@@ -154,6 +163,16 @@ en:
     update:
       success: "Password has been reset."
       cannot_empty: "can't be empty"
+  microposts:
+    create:
+      micropost_create_success: "Micropost created!"
+      micropost_create_fail: "Micropost create failed!"
+    destroy:
+      micropost_delete_success: "Micropost deleted"
+    micropost:
+      created_at: "Posted %{time} ago."
+      delete_link: "delete"
+      confirm: "You sure?"
   user_mailer:
     account_activation:
       subject: "Account activation"
