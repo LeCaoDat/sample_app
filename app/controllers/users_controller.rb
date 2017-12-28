@@ -47,6 +47,18 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def following
+    @title = t ".following_title"
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".followers_title"
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
+  end
+
   private
 
   def user_params
@@ -56,7 +68,7 @@ class UsersController < ApplicationController
   def find_user
     @user = User.find_by id: params[:id]
     return if @user
-    flash[:danger] = t ".not_found_user"
+    flash[:danger] = t "users.not_found_user"
     redirect_to root_path
   end
 end

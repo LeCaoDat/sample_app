@@ -10,3 +10,4 @@ sessions_controller:
   remember_me: "1"
 users_helper:
   default_size_gravatar: 50
+  follower_size_gravatar: 30
