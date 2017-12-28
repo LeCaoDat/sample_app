@@ -2,6 +2,10 @@ user_models:
   max_length_name: 50
   max_length_email: 255
   min_length_password: 6
+  time_expired: 2
+micropost_models:
+  max_length_content: 140
+  max_size_image_file: 1
 sessions_controller:
   remember_me: "1"
 users_helper:

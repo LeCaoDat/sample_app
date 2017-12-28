@@ -5,10 +5,12 @@ class UsersController < ApplicationController
   before_action :find_user, except: %i(index new create)
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.paginate page: params[:page]
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.created_at_desc.paginate page: params[:page]
+  end
 
   def new
     @user = User.new
