@@ -85,6 +85,8 @@ en:
       rail_logo: "Rails logo"
       micropost_feed: "Micropost Feed"
   users:
+    please_log_in: "Please log in."
+    not_found_user: "Not found the User"
     new:
       sign_up_title: "Sign up"
       sign_up_h1: "Sign up"
@@ -94,29 +96,34 @@ en:
       sign_up_success: "Welcome to the Sample App!"
       check_activate: "Please check your email to activate your account."
     show:
-      not_found_user: "Not found the User"
       total_micropost: "Microposts (%{count})"
     edit:
       edit_title: "Edit user"
       edit_h1: "Update your profile"
       change_link: "change"
       button_submit: "Save changes"
-      not_found_user: "Not found the User"
-      please_log_in: "Please log in."
     update:
-      not_found_user: "Not found the User"
       update_success: "Profile updated"
     index:
       users_title: "All users"
       users_h1: "All users"
-      please_log_in: "Please log in."
     user:
       detele_link: "delete"
       confirm: "You sure?"
     destroy:
-      not_found_user: "Not found the User"
       delete_success: "User deleted"
       delete_failed: "User delete failed"
+    follow:
+      button_submit: "Follow"
+    unfollow:
+      button_submit: "Unfollow"
+    following:
+      following_title: "Following"
+    followers:
+      followers_title: "Followers"
+    show_follow:
+      view_profile: "view my profile"
+      microposts: "Microposts:"
   shared:
     error_messages:
       content: "The form contains "
@@ -128,6 +135,9 @@ en:
       placeholder_content: "Compose new micropost..."
       button_submit: "Post"
       image_oversize: "should be less than 5MB"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login_title: "Log in"
